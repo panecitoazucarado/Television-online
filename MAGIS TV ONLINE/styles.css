@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    width: 25%;
+    background: #1f1f1f;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.channel-scroll {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+#channel-list {
+    list-style: none;
+    padding: 0;
+}
+
+#channel-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+#channel-list li:hover {
+    background: #333;
+}
+
+#channel-list li.active {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-left: 5px solid #ff4500; /* Añade una línea a la izquierda para indicar el canal activo */
+}
+
+.player-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#video-player {
+    width: 90%;
+    height: 80%;
+    background: black;
+}
+
+#fullscreen-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff4500;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#fullscreen-btn:hover {
+    background: #e03e00;
+}
+
+#channel-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+#channel-list li.active {
+    background-color: rgba(255, 255, 255, 0.5); /* Resaltar el canal activo */
+    color: black;
+}
+
+#channel-list li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

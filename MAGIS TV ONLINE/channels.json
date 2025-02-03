@@ -1,0 +1,20 @@
+{
+    "channels": [
+      {
+        "name": "Bolivia TV",
+        "url": "https://5fe2654d6127d.streamlock.net:443/boliviatv/videoboliviatv/playlist.m3u8"
+      },
+      {
+        "name": "Bolivision Señal LPZ",
+        "url": "https://d3ew2cr4djta2j.cloudfront.net/index.m3u8"
+      },
+      {
+        "name": "Bolivision Señal SCZ",
+        "url": "https://d2e599a9ekjlc5.cloudfront.net/index.m3u8"
+      },
+      {
+        "name": "Unitel SCZ",
+        "iframe": "https://geo.dailymotion.com/player.html?video=x7vsezg"
+      }
+    ]
+}
